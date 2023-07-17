@@ -1,20 +1,19 @@
-#include  <stdio.h>
+#include <stdio.h>
 
 /**
- *main -  prints all single digit numbers 
- *Return: Always 0 (Success)
+ * main - Prints numbers from 0 to 9.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int n = '0';
+	int i;
 
-	while (n <= '9')
+	for (i = 48; i < 58; i++)
 	{
-		putchar(n);
-		n++;
+		putchar(i);
 	}
 	putchar('\n');
-
 	return (0);
 }
+
